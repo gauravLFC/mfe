@@ -4,7 +4,7 @@ const packageJSON = require('../package.json');
 const commonConfig = require('./webpack.common');
 
 const prodConfig = {
-    mode: 'development',
+    mode: 'production',
     output: {
         filename: '[name].[contenthash].js',
         publicPath: '/marketing/latest/'
