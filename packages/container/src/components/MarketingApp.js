@@ -5,6 +5,7 @@ export default () => {
     const ref = useRef(null);
     useEffect(() => {
         mount(ref.current);
+        console.log('random console');
     }, []);
 
     return <div ref={ref}></div>
